@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T01:34:29.039Z",
+  "last_cycle": "2026-06-25T01:35:42.155Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,126 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T01:21:00.696Z",
-      "level": "info",
-      "msg": "[forex_trend_pullback_v1/frxGBPUSD] arm PUT cancelled — trend lost",
-      "meta": {}
-    },
-    {
-      "ts": "2026-06-25T01:21:00.697Z",
-      "level": "signal",
-      "msg": "[forex_trend_pullback_v1/frxUSDCAD] arm CALL @ RSI 29.5 (uptrend pullback)",
-      "meta": {}
-    },
-    {
-      "ts": "2026-06-25T01:21:00.698Z",
-      "level": "info",
-      "msg": "[forex_trend_pullback_v1/frxUSDCHF] arm CALL cancelled — trend lost",
-      "meta": {}
-    },
-    {
-      "ts": "2026-06-25T01:21:00.699Z",
-      "level": "info",
-      "msg": "Strategies executed",
-      "meta": {
-        "signals": 0,
-        "holds": 1,
-        "monitor": 9
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.798Z",
-      "level": "info",
-      "msg": "Cycle start",
-      "meta": {
-        "ts": "2026-06-25T01:21:37.798Z"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.801Z",
-      "level": "info",
-      "msg": "Strategy registered: Donchian Breakout + Pullback",
-      "meta": {
-        "id": "breakout_pullback_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.801Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "btc_edge_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.802Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "ema_momentum_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.802Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "eth_edge_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.803Z",
-      "level": "info",
-      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
-      "meta": {
-        "id": "five_min_crazy_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.804Z",
-      "level": "info",
-      "msg": "Strategy registered: Forex Trend Pullback (15m)",
-      "meta": {
-        "id": "forex_trend_pullback_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.804Z",
-      "level": "info",
-      "msg": "Strategy registered: Hexa Reversal (2m)",
-      "meta": {
-        "id": "hexa_reversal_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.805Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "rsi_reversal_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.805Z",
-      "level": "info",
-      "msg": "Strategy discovery complete: 4 loaded",
-      "meta": {
-        "enabled": [
-          "forex_trend_pullback_v1"
-        ]
-      }
-    },
-    {
-      "ts": "2026-06-25T01:21:37.806Z",
-      "level": "network",
-      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
-      "meta": {}
-    },
     {
       "ts": "2026-06-25T01:21:38.280Z",
       "level": "network",
@@ -1667,6 +1547,128 @@
         "holds": 0,
         "monitor": 10
       }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.156Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T01:35:42.155Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.158Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.159Z",
+      "level": "error",
+      "msg": "Strategy registration rejected",
+      "meta": {
+        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
+        "id": "btc_edge_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.159Z",
+      "level": "error",
+      "msg": "Strategy registration rejected",
+      "meta": {
+        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
+        "id": "ema_momentum_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.160Z",
+      "level": "error",
+      "msg": "Strategy registration rejected",
+      "meta": {
+        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
+        "id": "eth_edge_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.160Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.161Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.162Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.162Z",
+      "level": "error",
+      "msg": "Strategy registration rejected",
+      "meta": {
+        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
+        "id": "rsi_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.163Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:42.163Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T01:35:42.888Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=wUzYQGmK"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:35:43.270Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T01:35:48.180Z",
+      "level": "info",
+      "msg": "[forex_trend_pullback_v1/frxUSDCAD] arm CALL cancelled — trend lost",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T01:35:48.182Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
     }
   ],
   "trade_history": [
@@ -2726,7 +2728,7 @@
       "frxEURUSD": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
         "armed": false,
@@ -2736,7 +2738,7 @@
       "frxGBPUSD": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
         "armed": false,
@@ -2746,7 +2748,7 @@
       "frxUSDJPY": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
         "armed": false,
@@ -2756,7 +2758,7 @@
       "frxAUDUSD": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
         "armed": false,
@@ -2766,17 +2768,17 @@
       "frxUSDCAD": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
-        "armed": "CALL",
-        "armedAtEpoch": 1782350100,
-        "armedRsi": 29.47
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
       },
       "frxEURJPY": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
         "armed": false,
@@ -2786,7 +2788,7 @@
       "frxUSDCHF": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
         "armed": false,
@@ -2796,7 +2798,7 @@
       "frxNZDUSD": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
         "armed": false,
@@ -2806,7 +2808,7 @@
       "frxEURGBP": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           },
           "lastSignalAt": 1782332753442
         },
@@ -2817,7 +2819,7 @@
       "frxGBPJPY": {
         "__engine": {
           "lastClosedEpoch": {
-            "300": 1782350700
+            "300": 1782351000
           }
         },
         "armed": false,
