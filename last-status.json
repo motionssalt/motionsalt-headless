@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T04:16:26.226Z",
+  "last_cycle": "2026-06-25T04:17:26.473Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,22 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T02:42:26.025Z",
-      "level": "network",
-      "msg": "Deriv: WebSocket open",
-      "meta": {}
-    },
-    {
-      "ts": "2026-06-25T02:42:28.884Z",
-      "level": "info",
-      "msg": "Strategies executed",
-      "meta": {
-        "signals": 0,
-        "holds": 0,
-        "monitor": 10
-      }
-    },
     {
       "ts": "2026-06-25T02:43:27.535Z",
       "level": "info",
@@ -1432,6 +1416,20 @@
     },
     {
       "ts": "2026-06-25T04:16:26.229Z",
+      "level": "info",
+      "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T04:17:26.473Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T04:17:26.473Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T04:17:26.475Z",
       "level": "info",
       "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
       "meta": {}
