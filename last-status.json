@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T03:02:32.518Z",
+  "last_cycle": "2026-06-25T03:03:26.953Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,22 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T02:32:30.180Z",
-      "level": "info",
-      "msg": "Strategy registered: Forex Trend Pullback (15m)",
-      "meta": {
-        "id": "forex_trend_pullback_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T02:32:30.181Z",
-      "level": "info",
-      "msg": "Strategy registered: Hexa Reversal (2m)",
-      "meta": {
-        "id": "hexa_reversal_v1"
-      }
-    },
     {
       "ts": "2026-06-25T02:32:30.182Z",
       "level": "error",
@@ -1619,6 +1603,20 @@
     },
     {
       "ts": "2026-06-25T03:02:32.520Z",
+      "level": "info",
+      "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T03:03:26.954Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T03:03:26.953Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T03:03:26.955Z",
       "level": "info",
       "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
       "meta": {}
