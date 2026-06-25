@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T03:18:32.491Z",
+  "last_cycle": "2026-06-25T03:19:23.025Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,20 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T02:34:37.962Z",
-      "level": "network",
-      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
-      "meta": {}
-    },
-    {
-      "ts": "2026-06-25T02:34:38.485Z",
-      "level": "network",
-      "msg": "Deriv: opening WebSocket",
-      "meta": {
-        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=ZoW4lHz8"
-      }
-    },
     {
       "ts": "2026-06-25T02:34:38.827Z",
       "level": "network",
@@ -1576,6 +1562,20 @@
     },
     {
       "ts": "2026-06-25T03:18:32.493Z",
+      "level": "info",
+      "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T03:19:23.025Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T03:19:23.025Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T03:19:23.027Z",
       "level": "info",
       "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
       "meta": {}
