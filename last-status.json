@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T02:45:42.948Z",
+  "last_cycle": "2026-06-25T02:46:35.119Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,22 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T02:30:59.292Z",
-      "level": "info",
-      "msg": "Cycle start",
-      "meta": {
-        "ts": "2026-06-25T02:30:59.292Z"
-      }
-    },
-    {
-      "ts": "2026-06-25T02:30:59.294Z",
-      "level": "info",
-      "msg": "Strategy registered: Donchian Breakout + Pullback",
-      "meta": {
-        "id": "breakout_pullback_v1"
-      }
-    },
     {
       "ts": "2026-06-25T02:30:59.295Z",
       "level": "error",
@@ -1664,6 +1648,20 @@
     },
     {
       "ts": "2026-06-25T02:45:42.950Z",
+      "level": "info",
+      "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T02:46:35.119Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T02:46:35.119Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T02:46:35.121Z",
       "level": "info",
       "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
       "meta": {}
