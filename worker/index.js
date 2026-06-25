@@ -257,6 +257,8 @@ async function handleCallback(cb, env) {
         return tgEdit(env, cb, renderLimits(config),         KB.settings());
     if (data === 'set:stake')
         return tgEdit(env, cb, renderStake(config),          KB.settings());
+    if (data === 'set:payout')
+        return tgEdit(env, cb, renderPayout(config),         KB.settings());
     if (data === 'logs')
         return tgEdit(env, cb, renderLogs(state, 1, 'all'),  KB.logs(1));
 
@@ -658,6 +660,17 @@ function renderLimits(cfg) {
         '<i>Or       /setlimit minpayout 80</i>',
     ].join('\n');
 }
+function renderPayout(cfg) {
+    const l = (cfg && cfg.limits) || {};
+    return [
+        `💵 <b>Payout Threshold</b>`, '',
+        `min_payout_pct: <b>${l.min_payout_pct ?? 0}%</b>`,
+        '',
+        'Trades below this payout % are skipped.',
+        '',
+        '<i>Edit with /setlimit minpayout 80</i>',
+    ].join('\n');
+}
 function renderStake(cfg) {
     const r = (cfg && cfg.risk) || {};
     return [
@@ -711,6 +724,7 @@ const KB = {
         [{ text: '🎯 Risk Mode',  data: 'set:risk'    }, { text: '💰 Stake',    data: 'set:stake'   }],
         [{ text: '📊 Strategies', data: 'set:strats'  }, { text: '🚦 Limits',   data: 'set:limits'  }],
         [{ text: '📡 Symbols',    data: 'set:symbols' }, { text: '🔄 Account',  data: 'set:account' }],
+        [{ text: '💵 Payout',     data: 'set:payout'  }],
         [{ text: '⬅️ Back',       data: 'menu'        }],
     ]),
     riskMode: (cfg) => {
