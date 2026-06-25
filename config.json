@@ -51,7 +51,7 @@
     "max_trades_per_cycle": 1,
     "take_profit": 0,
     "stop_loss": 0,
-    "min_payout_pct": 0,
+    "min_payout_pct": 80,
     "auto_stop": true
   },
   "telegram": {
