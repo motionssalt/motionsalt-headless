@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T04:19:25.122Z",
+  "last_cycle": "2026-06-25T04:20:51.991Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,23 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T02:43:27.540Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "eth_edge_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T02:43:27.540Z",
-      "level": "info",
-      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
-      "meta": {
-        "id": "five_min_crazy_v1"
-      }
-    },
     {
       "ts": "2026-06-25T02:43:27.541Z",
       "level": "info",
@@ -1424,6 +1407,20 @@
     },
     {
       "ts": "2026-06-25T04:19:25.124Z",
+      "level": "info",
+      "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T04:20:51.991Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T04:20:51.991Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T04:20:51.993Z",
       "level": "info",
       "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
       "meta": {}
