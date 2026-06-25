@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T01:52:24.772Z",
+  "last_cycle": "2026-06-25T01:53:28.309Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,122 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T01:38:37.051Z",
-      "level": "network",
-      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
-      "meta": {}
-    },
-    {
-      "ts": "2026-06-25T01:38:37.583Z",
-      "level": "network",
-      "msg": "Deriv: opening WebSocket",
-      "meta": {
-        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=GdyZgjZs"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:38:37.917Z",
-      "level": "network",
-      "msg": "Deriv: WebSocket open",
-      "meta": {}
-    },
-    {
-      "ts": "2026-06-25T01:38:42.789Z",
-      "level": "info",
-      "msg": "Strategies executed",
-      "meta": {
-        "signals": 0,
-        "holds": 0,
-        "monitor": 10
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.309Z",
-      "level": "info",
-      "msg": "Cycle start",
-      "meta": {
-        "ts": "2026-06-25T01:39:26.308Z"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.311Z",
-      "level": "info",
-      "msg": "Strategy registered: Donchian Breakout + Pullback",
-      "meta": {
-        "id": "breakout_pullback_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.312Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "btc_edge_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.312Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "ema_momentum_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.313Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "eth_edge_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.314Z",
-      "level": "info",
-      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
-      "meta": {
-        "id": "five_min_crazy_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.314Z",
-      "level": "info",
-      "msg": "Strategy registered: Forex Trend Pullback (15m)",
-      "meta": {
-        "id": "forex_trend_pullback_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.315Z",
-      "level": "info",
-      "msg": "Strategy registered: Hexa Reversal (2m)",
-      "meta": {
-        "id": "hexa_reversal_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.315Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "rsi_reversal_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T01:39:26.316Z",
-      "level": "info",
-      "msg": "Strategy discovery complete: 4 loaded",
-      "meta": {
-        "enabled": [
-          "forex_trend_pullback_v1"
-        ]
-      }
-    },
     {
       "ts": "2026-06-25T01:39:26.316Z",
       "level": "network",
@@ -1662,6 +1546,122 @@
     },
     {
       "ts": "2026-06-25T01:52:27.914Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.309Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T01:53:28.309Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.312Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.313Z",
+      "level": "error",
+      "msg": "Strategy registration rejected",
+      "meta": {
+        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
+        "id": "btc_edge_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.313Z",
+      "level": "error",
+      "msg": "Strategy registration rejected",
+      "meta": {
+        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
+        "id": "ema_momentum_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.314Z",
+      "level": "error",
+      "msg": "Strategy registration rejected",
+      "meta": {
+        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
+        "id": "eth_edge_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.314Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.315Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.315Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.316Z",
+      "level": "error",
+      "msg": "Strategy registration rejected",
+      "meta": {
+        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
+        "id": "rsi_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.316Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:28.317Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T01:53:28.790Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=WoxrByIG"
+      }
+    },
+    {
+      "ts": "2026-06-25T01:53:29.099Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T01:53:33.643Z",
       "level": "info",
       "msg": "Strategies executed",
       "meta": {
