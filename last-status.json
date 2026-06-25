@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T03:52:28.153Z",
+  "last_cycle": "2026-06-25T03:53:27.442Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,25 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T02:39:21.423Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "rsi_reversal_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T02:39:21.424Z",
-      "level": "info",
-      "msg": "Strategy discovery complete: 4 loaded",
-      "meta": {
-        "enabled": [
-          "forex_trend_pullback_v1"
-        ]
-      }
-    },
     {
       "ts": "2026-06-25T02:39:21.424Z",
       "level": "network",
@@ -1491,6 +1472,20 @@
     },
     {
       "ts": "2026-06-25T03:52:28.155Z",
+      "level": "info",
+      "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T03:53:27.442Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T03:53:27.442Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T03:53:27.444Z",
       "level": "info",
       "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
       "meta": {}
