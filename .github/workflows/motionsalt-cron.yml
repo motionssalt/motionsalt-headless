@@ -1,0 +1,76 @@
+name: Motionsalt — 5-minute cron
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: 'Task type: cycle | daily_summary | manual'
+        required: false
+        default: 'cycle'
+      payload:
+        description: 'Optional JSON payload (e.g. Telegram update) — forwarded as INPUT_PAYLOAD'
+        required: false
+        default: ''
+
+permissions:
+  contents: write   # required so the bot can commit state back to the repo
+
+concurrency:
+  group: motionsalt-cron
+  cancel-in-progress: false
+
+jobs:
+  run-cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Cache Puppeteer Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-chromium-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+        run: npm ci --omit=dev || npm install --omit=dev
+
+      - name: Run bot cycle
+        env:
+          DERIV_BEARER_TOKEN: ${{ secrets.DERIV_BEARER_TOKEN }}
+          DERIV_APP_ID:       ${{ secrets.DERIV_APP_ID }}
+          DERIV_REAL_ID:      ${{ secrets.DERIV_REAL_ID }}
+          DERIV_DEMO_ID:      ${{ secrets.DERIV_DEMO_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_PAT:         ${{ secrets.PAT_TOKEN }}
+          INPUT_TASK:         ${{ github.event.inputs.task }}
+          INPUT_PAYLOAD:      ${{ github.event.inputs.payload }}
+        run: node runner.js
+
+      - name: Commit updated state
+        if: always()
+        run: |
+          git config user.name  "motionsalt-bot"
+          git config user.email "bot@motionsalt"
+          git add last-status.json config.json || true
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore(state): cycle update $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
+            # Retry on push race
+            git push || (git pull --rebase --autostash && git push) || \
+              (echo "Push failed — retrying once more" && sleep 3 && git pull --rebase --autostash && git push)
+          fi

@@ -1,0 +1,2733 @@
+{
+  "last_cycle": "2026-06-25T00:27:23.311Z",
+  "balance": 9917.42,
+  "currency": "USD",
+  "account_mode": "demo",
+  "session": {
+    "wins": 26,
+    "losses": 32,
+    "pnl": -5.34,
+    "trades": 58,
+    "loss_streak": 4,
+    "halted": true,
+    "halt_reason": "max_loss_streak reached (4)",
+    "day_start": "2026-06-23",
+    "day_start_balance": 9985.12,
+    "win_streak": 0
+  },
+  "logs": [
+    {
+      "ts": "2026-06-25T00:10:52.615Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:10:52.615Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:10:52.616Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:10:52.616Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:10:52.616Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:10:52.994Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=8OSDHZ0b"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:10:53.126Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:10:55.954Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:10:55.958Z",
+      "level": "signal",
+      "msg": "[forex_trend_pullback_v1/frxAUDUSD] arm CALL @ RSI 32.2 (uptrend pullback)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:10:55.960Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 1,
+        "monitor": 9
+      }
+    },
+    {
+      "ts": "2026-06-25T00:11:25.255Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:11:25.254Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:11:25.257Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:11:25.258Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:11:25.258Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:11:25.259Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:11:25.259Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:11:25.259Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:11:25.769Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=YPIlizZD"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:11:26.018Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:11:29.888Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:11:29.890Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:12:26.586Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:12:26.586Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:12:26.588Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:12:26.589Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:12:26.590Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:12:26.590Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:12:26.590Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:12:26.591Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:12:26.939Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=0JJcA7hf"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:12:27.051Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:12:29.937Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:12:29.940Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:13:27.988Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:13:27.988Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:13:27.991Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:13:27.991Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:13:27.992Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:13:27.992Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:13:27.992Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:13:27.993Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:13:28.683Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=IZsfvVJj"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:13:29.091Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:13:34.347Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:13:34.348Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:14:26.590Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:14:26.590Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:14:26.592Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:14:26.592Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:14:26.592Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:14:26.593Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:14:26.593Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:14:26.593Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:14:27.126Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=SJQvRqtC"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:14:27.467Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:14:32.197Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:14:32.198Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:15:49.833Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:15:49.833Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:15:49.835Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:15:49.836Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:15:49.836Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:15:49.837Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:15:49.837Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:15:49.837Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:15:50.327Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=IFNnobhh"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:15:50.595Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:15:54.689Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:15:54.696Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:16:34.195Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:16:34.194Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:16:34.197Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:16:34.197Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:16:34.198Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:16:34.198Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:16:34.199Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:16:34.199Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:16:34.586Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=eHZXanBW"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:16:34.778Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:16:38.455Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:16:38.457Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:17:34.965Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:17:34.965Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:17:34.967Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:17:34.968Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:17:34.969Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:17:34.969Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:17:34.969Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:17:34.970Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:17:35.491Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=ojJq9yo6"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:17:35.864Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:17:40.895Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:17:40.897Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:18:35.339Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:18:35.339Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:18:35.341Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:18:35.342Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:18:35.343Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:18:35.343Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:18:35.343Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:18:35.344Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:18:35.995Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=aiedDKm3"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:18:36.391Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:18:41.325Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:18:41.327Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:19:32.184Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:19:32.184Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:19:32.186Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:19:32.187Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:19:32.188Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:19:32.188Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:19:32.188Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:19:32.189Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:19:32.754Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=4Q0KitHf"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:19:33.076Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:19:37.820Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:19:37.822Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:20:48.763Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:20:48.763Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:20:48.765Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:20:48.766Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:20:48.766Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:20:48.767Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:20:48.767Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:20:48.767Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:20:49.243Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=uetLqm0B"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:20:49.440Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:20:52.804Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:20:52.808Z",
+      "level": "info",
+      "msg": "[forex_trend_pullback_v1/frxAUDUSD] arm CALL cancelled — trend lost",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:20:52.809Z",
+      "level": "info",
+      "msg": "[forex_trend_pullback_v1/frxEURJPY] arm CALL cancelled — trend lost",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:20:52.811Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:21:27.340Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:21:27.340Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:21:27.343Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:21:27.343Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:21:27.344Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:21:27.345Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:21:27.345Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:21:27.345Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:21:27.927Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=jHzJmDEw"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:21:28.306Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:21:34.003Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:21:34.004Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:22:30.708Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:22:30.708Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:22:30.711Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:22:30.711Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:22:30.712Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:22:30.713Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:22:30.713Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:22:30.713Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:22:31.310Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=0zLG5xEJ"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:22:31.668Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:22:36.647Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:22:36.649Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:23:30.601Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:23:30.601Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:23:30.604Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:23:30.604Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:23:30.605Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:23:30.606Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:23:30.606Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:23:30.606Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:23:31.172Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=RknDOn0k"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:23:31.516Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:23:36.520Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:23:36.522Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:24:33.750Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:24:33.750Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:24:33.752Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:24:33.753Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:24:33.754Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:24:33.754Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:24:33.754Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:24:33.755Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:24:34.372Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=L43fsHp0"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:24:34.720Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:24:39.596Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:24:39.598Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:25:36.928Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:25:36.928Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:25:36.930Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:25:36.931Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:25:36.932Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:25:36.932Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:25:36.932Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:25:36.933Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:25:37.462Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=kshPAuxq"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:25:37.723Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:25:41.739Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:25:41.744Z",
+      "level": "signal",
+      "msg": "[forex_trend_pullback_v1/frxEURGBP] arm CALL @ RSI 33.8 (uptrend pullback)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:25:41.744Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 1,
+        "monitor": 9
+      }
+    },
+    {
+      "ts": "2026-06-25T00:26:35.472Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:26:35.472Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:26:35.475Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:26:35.475Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:26:35.476Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:26:35.476Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:26:35.477Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:26:35.477Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:26:35.837Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=mOptKv6O"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:26:36.177Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:26:41.319Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:26:41.321Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    },
+    {
+      "ts": "2026-06-25T00:27:23.311Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T00:27:23.311Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:27:23.314Z",
+      "level": "info",
+      "msg": "Strategy registered: Donchian Breakout + Pullback",
+      "meta": {
+        "id": "breakout_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:27:23.314Z",
+      "level": "info",
+      "msg": "Strategy registered: 5-Minute Crazy Method (STC + ZigZag + EMA7)",
+      "meta": {
+        "id": "five_min_crazy_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:27:23.315Z",
+      "level": "info",
+      "msg": "Strategy registered: Forex Trend Pullback (15m)",
+      "meta": {
+        "id": "forex_trend_pullback_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:27:23.315Z",
+      "level": "info",
+      "msg": "Strategy registered: Hexa Reversal (2m)",
+      "meta": {
+        "id": "hexa_reversal_v1"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:27:23.315Z",
+      "level": "info",
+      "msg": "Strategy discovery complete: 4 loaded",
+      "meta": {
+        "enabled": [
+          "forex_trend_pullback_v1"
+        ]
+      }
+    },
+    {
+      "ts": "2026-06-25T00:27:23.316Z",
+      "level": "network",
+      "msg": "Deriv: requesting OTP for DOT93176227 (demo)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:27:23.701Z",
+      "level": "network",
+      "msg": "Deriv: opening WebSocket",
+      "meta": {
+        "url": "wss://api.derivws.com/trading/v1/options/ws/demo?otp=MhUkUC1k"
+      }
+    },
+    {
+      "ts": "2026-06-25T00:27:23.829Z",
+      "level": "network",
+      "msg": "Deriv: WebSocket open",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:27:26.759Z",
+      "level": "warn",
+      "msg": "Risk gate blocked trading: max_loss_streak reached (4)",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T00:27:26.762Z",
+      "level": "info",
+      "msg": "Strategies executed",
+      "meta": {
+        "signals": 0,
+        "holds": 0,
+        "monitor": 10
+      }
+    }
+  ],
+  "trade_history": [
+    {
+      "id": "2877292439",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 10,
+      "profit": -10,
+      "result": "loss",
+      "entry": "369.17",
+      "exit": "369.60",
+      "ts": "2026-06-22T00:41:49.568Z"
+    },
+    {
+      "id": "2877481059",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 10,
+      "profit": -7.55,
+      "result": "loss",
+      "entry": "370.43",
+      "exit": "370.58",
+      "ts": "2026-06-22T00:46:37.444Z"
+    },
+    {
+      "id": "2877677899",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.39,
+      "result": "win",
+      "entry": "370.88",
+      "exit": "371.53",
+      "ts": "2026-06-22T00:51:46.052Z"
+    },
+    {
+      "id": "2877862879",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "370.44",
+      "exit": "370.90",
+      "ts": "2026-06-22T00:56:39.151Z"
+    },
+    {
+      "id": "2884444479",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "373.30",
+      "exit": "373.16",
+      "ts": "2026-06-22T03:50:47.780Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2884661499",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "373.26",
+      "exit": "373.27",
+      "ts": "2026-06-22T03:55:37.747Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2884857899",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "373.14",
+      "exit": "372.25",
+      "ts": "2026-06-22T04:01:12.607Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2885087679",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "372.17",
+      "exit": "370.51",
+      "ts": "2026-06-22T04:05:39.861Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2885293019",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "370.38",
+      "exit": "369.96",
+      "ts": "2026-06-22T04:10:46.087Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2885512139",
+      "symbol": "R_75",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 1,
+      "profit": 0.82,
+      "result": "win",
+      "entry": "38810.2570",
+      "exit": "38719.3634",
+      "ts": "2026-06-22T04:15:46.141Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2885713379",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "371.12",
+      "exit": "371.68",
+      "ts": "2026-06-22T04:20:52.709Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2885941759",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "371.66",
+      "exit": "370.61",
+      "ts": "2026-06-22T04:30:57.824Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2886431239",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "370.61",
+      "exit": "371.59",
+      "ts": "2026-06-22T04:35:41.730Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2886652699",
+      "symbol": "R_75",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 1,
+      "profit": -1,
+      "result": "loss",
+      "entry": "38687.3883",
+      "exit": "38910.9912",
+      "ts": "2026-06-22T04:40:48.512Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2886905339",
+      "symbol": "R_75",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 2,
+      "profit": 1.64,
+      "result": "win",
+      "entry": "38909.0142",
+      "exit": "38749.3051",
+      "ts": "2026-06-22T04:45:48.160Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2887146339",
+      "symbol": "R_75",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "38739.5826",
+      "exit": "38825.4293",
+      "ts": "2026-06-22T04:50:45.418Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2887384639",
+      "symbol": "R_25",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 1,
+      "profit": 0.82,
+      "result": "win",
+      "entry": "2590.784",
+      "exit": "2593.356",
+      "ts": "2026-06-22T04:55:37.991Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2887629439",
+      "symbol": "R_75",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "38876.8407",
+      "exit": "38997.9631",
+      "ts": "2026-06-22T05:05:36.407Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2888151759",
+      "symbol": "R_75",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "38999.2344",
+      "exit": "38790.6812",
+      "ts": "2026-06-22T05:10:44.392Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2888743859",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "PUT",
+      "stake": 1,
+      "profit": -1,
+      "result": "loss",
+      "entry": "369.90",
+      "exit": "373.21",
+      "ts": "2026-06-22T05:20:43.697Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2889021679",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 2,
+      "profit": -2,
+      "result": "loss",
+      "entry": "373.09",
+      "exit": "375.15",
+      "ts": "2026-06-22T05:30:58.437Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2889537419",
+      "symbol": "R_100",
+      "strategy": "candle_growth_v1",
+      "type": "CALL",
+      "stake": 4,
+      "profit": 3.28,
+      "result": "win",
+      "entry": "375.08",
+      "exit": "377.54",
+      "ts": "2026-06-22T05:35:33.710Z",
+      "note": "settled after 1 cycle(s)"
+    },
+    {
+      "id": "2967608299",
+      "symbol": "R_50",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "93.0114",
+      "exit": "93.0199",
+      "placedAt": "2026-06-22T22:07:39.728Z",
+      "ts": "2026-06-22T22:10:51.797Z"
+    },
+    {
+      "id": "2995564679",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "355.94",
+      "exit": "356.72",
+      "placedAt": "2026-06-23T06:45:48.556Z",
+      "ts": "2026-06-23T06:49:27.009Z"
+    },
+    {
+      "id": "2995756799",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "2581.959",
+      "exit": "2584.271",
+      "placedAt": "2026-06-23T06:48:36.004Z",
+      "ts": "2026-06-23T06:52:33.424Z"
+    },
+    {
+      "id": "2996013159",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "40063.5101",
+      "exit": "40139.5966",
+      "placedAt": "2026-06-23T06:52:34.760Z",
+      "ts": "2026-06-23T06:55:40.729Z"
+    },
+    {
+      "id": "2996076379",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "2583.794",
+      "exit": "2586.120",
+      "placedAt": "2026-06-23T06:53:30.269Z",
+      "ts": "2026-06-23T06:56:34.287Z"
+    },
+    {
+      "id": "2996233959",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "356.39",
+      "exit": "357.38",
+      "placedAt": "2026-06-23T06:55:43.382Z",
+      "ts": "2026-06-23T06:59:23.538Z"
+    },
+    {
+      "id": "2996358759",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "40146.0200",
+      "exit": "40144.0738",
+      "placedAt": "2026-06-23T06:57:27.710Z",
+      "ts": "2026-06-23T07:01:10.570Z"
+    },
+    {
+      "id": "2996640139",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "356.30",
+      "exit": "356.39",
+      "placedAt": "2026-06-23T07:01:11.914Z",
+      "ts": "2026-06-23T07:04:30.806Z"
+    },
+    {
+      "id": "2997545899",
+      "symbol": "R_50",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "92.2746",
+      "exit": "92.1386",
+      "placedAt": "2026-06-23T07:13:36.723Z",
+      "ts": "2026-06-23T07:17:27.089Z"
+    },
+    {
+      "id": "2997808279",
+      "symbol": "R_50",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "92.1442",
+      "exit": "92.0172",
+      "placedAt": "2026-06-23T07:17:29.449Z",
+      "ts": "2026-06-23T07:20:46.961Z"
+    },
+    {
+      "id": "2998677019",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "2582.327",
+      "exit": "2581.664",
+      "placedAt": "2026-06-23T07:29:31.663Z",
+      "ts": "2026-06-23T07:33:33.709Z"
+    },
+    {
+      "id": "2998888939",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "4824.005",
+      "exit": "4822.658",
+      "placedAt": "2026-06-23T07:32:30.281Z",
+      "ts": "2026-06-23T07:35:42.662Z"
+    },
+    {
+      "id": "2999307919",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "40074.5640",
+      "exit": "40064.5716",
+      "placedAt": "2026-06-23T07:38:34.379Z",
+      "ts": "2026-06-23T07:42:36.563Z"
+    },
+    {
+      "id": "2999668779",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "4821.196",
+      "exit": "4821.146",
+      "placedAt": "2026-06-23T07:43:33.622Z",
+      "ts": "2026-06-23T07:47:27.091Z"
+    },
+    {
+      "id": "3000108759",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "4820.936",
+      "exit": "4821.102",
+      "placedAt": "2026-06-23T07:49:26.389Z",
+      "ts": "2026-06-23T07:52:30.479Z"
+    },
+    {
+      "id": "3000713039",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "4820.260",
+      "exit": "4819.964",
+      "placedAt": "2026-06-23T07:57:29.175Z",
+      "ts": "2026-06-23T08:01:24.984Z"
+    },
+    {
+      "id": "3000859599",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "352.75",
+      "exit": "352.32",
+      "placedAt": "2026-06-23T07:59:28.680Z",
+      "ts": "2026-06-23T08:03:48.362Z"
+    },
+    {
+      "id": "3001175419",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "40161.0821",
+      "exit": "40172.5906",
+      "placedAt": "2026-06-23T08:03:49.644Z",
+      "ts": "2026-06-23T08:07:38.142Z"
+    },
+    {
+      "id": "3001613519",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "40224.2046",
+      "exit": "40226.3894",
+      "placedAt": "2026-06-23T08:09:32.885Z",
+      "ts": "2026-06-23T08:12:40.302Z"
+    },
+    {
+      "id": "3002194859",
+      "symbol": "R_50",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "93.0387",
+      "exit": "92.9629",
+      "placedAt": "2026-06-23T08:16:34.471Z",
+      "ts": "2026-06-23T08:20:52.577Z"
+    },
+    {
+      "id": "3002835359",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "2590.198",
+      "exit": "2590.070",
+      "placedAt": "2026-06-23T08:24:42.630Z",
+      "ts": "2026-06-23T08:28:30.953Z"
+    },
+    {
+      "id": "3003333239",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "4826.440",
+      "exit": "4826.641",
+      "placedAt": "2026-06-23T08:31:07.893Z",
+      "ts": "2026-06-23T08:34:34.369Z"
+    },
+    {
+      "id": "3003900979",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "4826.345",
+      "exit": "4826.010",
+      "placedAt": "2026-06-23T08:38:40.606Z",
+      "ts": "2026-06-23T08:42:39.238Z"
+    },
+    {
+      "id": "3004352839",
+      "symbol": "R_50",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "92.7895",
+      "exit": "92.6031",
+      "placedAt": "2026-06-23T08:44:39.719Z",
+      "ts": "2026-06-23T08:48:34.501Z"
+    },
+    {
+      "id": "3004831699",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "4829.178",
+      "exit": "4828.313",
+      "placedAt": "2026-06-23T08:50:51.465Z",
+      "ts": "2026-06-23T08:54:31.016Z"
+    },
+    {
+      "id": "3005188659",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "359.96",
+      "exit": "359.77",
+      "placedAt": "2026-06-23T08:55:38.186Z",
+      "ts": "2026-06-23T08:59:28.783Z"
+    },
+    {
+      "id": "3005427279",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "40349.5437",
+      "exit": "40317.3882",
+      "placedAt": "2026-06-23T08:58:32.942Z",
+      "ts": "2026-06-23T09:02:44.517Z"
+    },
+    {
+      "id": "3006484539",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "360.66",
+      "exit": "361.18",
+      "placedAt": "2026-06-23T09:11:32.888Z",
+      "ts": "2026-06-23T09:14:34.926Z"
+    },
+    {
+      "id": "3006981359",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "361.25",
+      "exit": "360.89",
+      "placedAt": "2026-06-23T09:17:34.275Z",
+      "ts": "2026-06-23T09:20:51.636Z"
+    },
+    {
+      "id": "3007252639",
+      "symbol": "R_50",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "92.8056",
+      "exit": "92.5303",
+      "placedAt": "2026-06-23T09:20:54.196Z",
+      "ts": "2026-06-23T09:24:35.918Z"
+    },
+    {
+      "id": "3007461359",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "4827.592",
+      "exit": "4826.558",
+      "placedAt": "2026-06-23T09:23:34.665Z",
+      "ts": "2026-06-23T09:27:24.050Z"
+    },
+    {
+      "id": "3007908499",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "2589.744",
+      "exit": "2589.730",
+      "placedAt": "2026-06-23T09:29:24.308Z",
+      "ts": "2026-06-23T09:32:29.542Z"
+    },
+    {
+      "id": "3008209059",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "2590.589",
+      "exit": "2590.836",
+      "placedAt": "2026-06-23T09:33:30.828Z",
+      "ts": "2026-06-23T09:37:32.138Z"
+    },
+    {
+      "id": "3008373999",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "360.73",
+      "exit": "361.24",
+      "placedAt": "2026-06-23T09:35:43.962Z",
+      "ts": "2026-06-23T09:39:32.023Z"
+    },
+    {
+      "id": "3010075279",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "361.63",
+      "exit": "358.88",
+      "placedAt": "2026-06-23T09:56:40.432Z",
+      "ts": "2026-06-23T10:01:15.551Z"
+    },
+    {
+      "id": "3010288399",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "2587.017",
+      "exit": "2586.630",
+      "placedAt": "2026-06-23T09:59:26.731Z",
+      "ts": "2026-06-23T10:02:42.737Z"
+    },
+    {
+      "id": "3010559819",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "2586.994",
+      "exit": "2587.182",
+      "placedAt": "2026-06-23T10:02:46.191Z",
+      "ts": "2026-06-23T10:06:31.539Z"
+    },
+    {
+      "id": "3010874439",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "39917.3559",
+      "exit": "39789.6648",
+      "placedAt": "2026-06-23T10:06:32.862Z",
+      "ts": "2026-06-23T10:10:48.708Z"
+    },
+    {
+      "id": "3011111679",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "2585.264",
+      "exit": "2587.358",
+      "placedAt": "2026-06-23T10:09:27.599Z",
+      "ts": "2026-06-23T10:12:32.585Z"
+    },
+    {
+      "id": "3011771959",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "2582.724",
+      "exit": "2581.936",
+      "placedAt": "2026-06-23T10:17:57.061Z",
+      "ts": "2026-06-23T10:21:26.821Z"
+    },
+    {
+      "id": "3012097359",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "39702.1927",
+      "exit": "39676.1139",
+      "placedAt": "2026-06-23T10:22:29.371Z",
+      "ts": "2026-06-23T10:25:53.722Z"
+    },
+    {
+      "id": "3012362839",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "2583.026",
+      "exit": "2584.000",
+      "placedAt": "2026-06-23T10:25:56.619Z",
+      "ts": "2026-06-23T10:29:30.955Z"
+    },
+    {
+      "id": "3013509919",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "2586.461",
+      "exit": "2585.298",
+      "placedAt": "2026-06-23T10:40:49.338Z",
+      "ts": "2026-06-23T10:44:31.142Z"
+    },
+    {
+      "id": "3014388799",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "358.01",
+      "exit": "358.24",
+      "placedAt": "2026-06-23T10:51:24.105Z",
+      "ts": "2026-06-23T10:54:28.177Z"
+    },
+    {
+      "id": "3015070559",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "2582.263",
+      "exit": "2581.328",
+      "placedAt": "2026-06-23T10:59:33.245Z",
+      "ts": "2026-06-23T11:02:45.190Z"
+    },
+    {
+      "id": "3015211079",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "39835.1569",
+      "exit": "39804.7662",
+      "placedAt": "2026-06-23T11:01:19.781Z",
+      "ts": "2026-06-23T11:04:33.888Z"
+    },
+    {
+      "id": "3015628339",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "2581.813",
+      "exit": "2581.109",
+      "placedAt": "2026-06-23T11:06:31.350Z",
+      "ts": "2026-06-23T11:10:54.185Z"
+    },
+    {
+      "id": "3016229499",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "39656.4063",
+      "exit": "39643.3940",
+      "placedAt": "2026-06-23T11:13:36.176Z",
+      "ts": "2026-06-23T11:17:30.997Z"
+    },
+    {
+      "id": "3016502219",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "4830.973",
+      "exit": "4832.010",
+      "placedAt": "2026-06-23T11:16:32.549Z",
+      "ts": "2026-06-23T11:20:48.089Z"
+    },
+    {
+      "id": "3016932139",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "39618.3534",
+      "exit": "39650.1998",
+      "placedAt": "2026-06-23T11:21:26.910Z",
+      "ts": "2026-06-23T11:24:33.016Z"
+    },
+    {
+      "id": "3017562779",
+      "symbol": "R_25",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "2578.630",
+      "exit": "2578.711",
+      "placedAt": "2026-06-23T11:28:00.599Z",
+      "ts": "2026-06-23T11:32:31.542Z"
+    },
+    {
+      "id": "3017846659",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "360.27",
+      "exit": "359.87",
+      "placedAt": "2026-06-23T11:31:03.505Z",
+      "ts": "2026-06-23T11:34:34.618Z"
+    },
+    {
+      "id": "3017982119",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "39608.4076",
+      "exit": "39581.4569",
+      "placedAt": "2026-06-23T11:32:33.686Z",
+      "ts": "2026-06-23T11:35:40.938Z"
+    },
+    {
+      "id": "3018070419",
+      "symbol": "R_50",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "92.1542",
+      "exit": "92.3285",
+      "placedAt": "2026-06-23T11:33:35.283Z",
+      "ts": "2026-06-23T11:37:23.581Z"
+    },
+    {
+      "id": "3018766239",
+      "symbol": "R_75",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": 0.41,
+      "result": "win",
+      "entry": "39814.2371",
+      "exit": "39958.2783",
+      "placedAt": "2026-06-23T11:40:46.651Z",
+      "ts": "2026-06-23T11:44:28.160Z"
+    },
+    {
+      "id": "3019022739",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "4835.820",
+      "exit": "4834.445",
+      "placedAt": "2026-06-23T11:43:28.506Z",
+      "ts": "2026-06-23T11:46:30.805Z"
+    },
+    {
+      "id": "3019257079",
+      "symbol": "R_50",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "92.0493",
+      "exit": "92.1097",
+      "placedAt": "2026-06-23T11:45:50.970Z",
+      "ts": "2026-06-23T11:49:27.370Z"
+    },
+    {
+      "id": "3019408139",
+      "symbol": "R_100",
+      "strategy": "breakout_pullback_v1",
+      "type": "CALL",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "360.74",
+      "exit": "360.23",
+      "placedAt": "2026-06-23T11:47:32.240Z",
+      "ts": "2026-06-23T11:50:51.634Z"
+    },
+    {
+      "id": "3020405759",
+      "symbol": "R_10",
+      "strategy": "breakout_pullback_v1",
+      "type": "PUT",
+      "stake": 0.5,
+      "profit": -0.5,
+      "result": "loss",
+      "entry": "4833.074",
+      "exit": "4835.208",
+      "placedAt": "2026-06-23T11:58:30.217Z",
+      "ts": "2026-06-23T12:02:29.613Z"
+    }
+  ],
+  "pending_contracts": [],
+  "strategy_state": {
+    "forex_trend_pullback_v1": {
+      "frxEURUSD": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      },
+      "frxGBPUSD": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      },
+      "frxUSDJPY": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      },
+      "frxAUDUSD": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      },
+      "frxUSDCAD": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      },
+      "frxEURJPY": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      },
+      "frxUSDCHF": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      },
+      "frxNZDUSD": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      },
+      "frxEURGBP": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          },
+          "lastSignalAt": 1782332753442
+        },
+        "armed": "CALL",
+        "armedAtEpoch": 1782346800,
+        "armedRsi": 33.79
+      },
+      "frxGBPJPY": {
+        "__engine": {
+          "lastClosedEpoch": {
+            "300": 1782346800
+          }
+        },
+        "armed": false,
+        "armedAtEpoch": 0,
+        "armedRsi": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "motionsalt-headless",
+  "version": "2.0.0",
+  "description": "MOTIONSALT Deriv Bot — headless, serverless trading bot controlled via Telegram, running on GitHub Actions.",
+  "main": "runner.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node runner.js",
+    "cycle": "node runner.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "technicalindicators": "^3.1.0",
+    "ws": "^8.18.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^22.0.0"
+  }
+}
