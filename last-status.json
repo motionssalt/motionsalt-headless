@@ -1,5 +1,5 @@
 {
-  "last_cycle": "2026-06-25T03:01:08.131Z",
+  "last_cycle": "2026-06-25T03:01:31.767Z",
   "balance": 9917.42,
   "currency": "USD",
   "account_mode": "demo",
@@ -16,24 +16,6 @@
     "win_streak": 0
   },
   "logs": [
-    {
-      "ts": "2026-06-25T02:32:30.176Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "btc_edge_v1"
-      }
-    },
-    {
-      "ts": "2026-06-25T02:32:30.177Z",
-      "level": "error",
-      "msg": "Strategy registration rejected",
-      "meta": {
-        "reason": "plugin must define onClosedBar(bar, ctx) and/or onCycle(ctx)",
-        "id": "ema_momentum_v1"
-      }
-    },
     {
       "ts": "2026-06-25T02:32:30.178Z",
       "level": "error",
@@ -1626,6 +1608,20 @@
     },
     {
       "ts": "2026-06-25T03:01:08.133Z",
+      "level": "info",
+      "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
+      "meta": {}
+    },
+    {
+      "ts": "2026-06-25T03:01:31.768Z",
+      "level": "info",
+      "msg": "Cycle start",
+      "meta": {
+        "ts": "2026-06-25T03:01:31.767Z"
+      }
+    },
+    {
+      "ts": "2026-06-25T03:01:31.769Z",
       "level": "info",
       "msg": "Bot disabled (config.enabled=false). Exiting cleanly.",
       "meta": {}
